@@ -124,6 +124,6 @@ while True:
     else:
         print("Invalid output!")
         for x in 'time':
-            time.sleep(0.25)
+            time.sleep(0.2) 
             print(".")
     continue
