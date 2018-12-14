@@ -39,6 +39,7 @@ while True:
     decorator()
     print("Welcome to random password generator!\nproject by: Maciej Wiatr")
     decorator()
+    print('\n\nAlways remember to save your progress before re-using program!')
     cls()
     decorator2()
 
