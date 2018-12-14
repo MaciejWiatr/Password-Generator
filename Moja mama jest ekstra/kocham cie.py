@@ -1,0 +1,1 @@
+print('moja mama jest ekstra')
