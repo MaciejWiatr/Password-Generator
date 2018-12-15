@@ -51,8 +51,7 @@ while True:
     decorator2()
     yn_3 = str(input("Do you want to save your password to .txt file? (y/n) "))
     decorator2()
-    yn_4 = str(input("Do you want extra features that will help you remember your password?\n"))
-    print("Warning! It might extend password lengh! (y/n) ")
+    yn_4 = str(input("Do you want extra features that will help you remember your password?\nWarning! It might extend password lengh! (y/n) "))
     decorator2()
     yn_5 = str(input("Do you want it to contain some extra word? (e.g. Your dogs name) (y/n) "))
     if (yn_5 == 'y'):
