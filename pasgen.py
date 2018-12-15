@@ -39,9 +39,9 @@ while True:
     decorator()
     print("Welcome to random password generator!\nproject by: Maciej Wiatr")
     decorator()
+    print('\n\nAlways remember to save your progress before re-using program!')
     cls()
     decorator2()
-
     dl = int(input("How long do you want the password to be? \nSuggested lengh is more than 5 :  "))
     decorator2()
     yn = str(input("Do you want to have letters in it? (y/n) "))
@@ -50,8 +50,7 @@ while True:
     decorator2()
     yn_3 = str(input("Do you want to save your password to .txt file? (y/n) "))
     decorator2()
-    yn_4 = str(input("Do you want extra features that will help you remember your password?\n"))
-    print("Warning! It might extend password lengh! (y/n) ")
+    yn_4 = str(input("Do you want extra features that will help you remember your password?\nWarning! It might extend password lengh! (y/n) "))
     decorator2()
     yn_5 = str(input("Do you want it to contain some extra word? (e.g. Your dogs name) (y/n) "))
     if (yn_5 == 'y'):
