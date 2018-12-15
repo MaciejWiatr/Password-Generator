@@ -42,7 +42,6 @@ while True:
     print('\n\nAlways remember to save your progress before re-using program!')
     cls()
     decorator2()
-
     dl = int(input("How long do you want the password to be? \nSuggested lengh is more than 5 :  "))
     decorator2()
     yn = str(input("Do you want to have letters in it? (y/n) "))
